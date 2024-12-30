@@ -1,13 +1,21 @@
-import ForLoop from './forLoop';
+import ForLoop from './componant/forLoop';
 import React, { useState } from 'react';
 import './App.css';
+import Shoescomp from './componant/Shoescomp';
+import Newcomponant from './componant/Newcomponant';
+
+
+
+
+
+
 // import componantName from './componant.js';
 function App() {
   return (
-    <div >
+    <div  className='px-20'>
+      < Shoescomp/>
       <ForLoop />
-      <h1>heloo</h1>
-    
+      <Newcomponant/>
     </div>
   );
 }
